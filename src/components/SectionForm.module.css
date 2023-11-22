@@ -1,0 +1,95 @@
+.frameChild {
+  border: 0;
+  background-color: var(--color-gainsboro);
+  position: relative;
+  border-radius: var(--br-xl);
+  width: 343px;
+  height: 73px;
+}
+.rectangleWrapper {
+  position: absolute;
+  top: 58px;
+  left: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+}
+.frameItem {
+  border: 0;
+  background-color: var(--color-gainsboro);
+  position: relative;
+  border-radius: var(--br-xl);
+  width: 729px;
+  height: 131px;
+}
+.rectangleContainer {
+  position: absolute;
+  top: 190px;
+  left: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+}
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gainsboro);
+  width: 196px;
+  height: 58px;
+}
+.submit {
+  position: absolute;
+  top: 17.8px;
+  left: calc(50% - 76px);
+  font-size: var(--font-size-xl);
+  display: inline-block;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: center;
+  width: 152px;
+  height: 40.2px;
+}
+.rectangleParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 343px;
+  left: 534px;
+  width: 196px;
+  height: 58px;
+}
+.feedbackForm,
+.rectangleFrame {
+  position: absolute;
+  top: 8px;
+  left: 14px;
+}
+.rectangleFrame {
+  top: 58px;
+  left: 372px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+}
+.frameParent {
+  position: absolute;
+  top: 1044px;
+  left: 43px;
+  width: 743px;
+  height: 408px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

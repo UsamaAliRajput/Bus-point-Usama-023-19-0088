@@ -1,0 +1,89 @@
+.theFastPinpoint {
+  margin: 0;
+}
+.getStarted {
+  margin: 0;
+  color: var(--color-firebrick);
+}
+.pinpointIsThe,
+.theFastPinpointContainer {
+  position: absolute;
+  text-align: left;
+  display: inline-block;
+}
+.theFastPinpointContainer {
+  top: 12px;
+  left: 11px;
+  font-size: var(--font-size-21xl);
+  width: 523px;
+  height: 235px;
+}
+.pinpointIsThe {
+  top: 180px;
+  left: 67px;
+  font-size: var(--font-size-xl);
+  width: 598px;
+}
+.frameChild {
+  position: absolute;
+  top: 379px;
+  left: 42px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gainsboro);
+  width: 140px;
+  height: 48px;
+}
+.frameItem,
+.users {
+  position: absolute;
+  top: 394px;
+  left: 66px;
+}
+.frameItem {
+  top: 379px;
+  left: 518px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gainsboro);
+  width: 140px;
+  height: 48px;
+}
+.groupChild,
+.kDownloads {
+  position: absolute;
+  top: 394px;
+  left: 529px;
+}
+.groupChild {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gainsboro);
+  width: 156px;
+  height: 48px;
+}
+.trustedClients {
+  position: absolute;
+  top: 15px;
+  left: 16px;
+  display: inline-block;
+  width: 136px;
+}
+.rectangleParent {
+  position: absolute;
+  top: 379px;
+  left: 278px;
+  width: 156px;
+  height: 48px;
+}
+.theFastPinpointGetStartedParent {
+  position: absolute;
+  top: 468px;
+  left: 41px;
+  width: 685px;
+  height: 435px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

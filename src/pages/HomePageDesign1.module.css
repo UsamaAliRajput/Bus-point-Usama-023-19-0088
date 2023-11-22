@@ -1,0 +1,88 @@
+.materialSymbolshomePinIcon {
+  position: absolute;
+  top: 31px;
+  left: 38px;
+  width: 51px;
+  height: 50px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.frameChild {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-red);
+  position: relative;
+  border-radius: var(--br-3xs);
+  width: 91px;
+  height: 34px;
+}
+.homePageDesignInner {
+  position: absolute;
+  top: 30px;
+  left: 670px;
+  width: 107px;
+  height: 54px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+}
+.image3Icon {
+  position: absolute;
+  top: 90px;
+  left: 188px;
+  width: 424px;
+  height: 258px;
+  object-fit: cover;
+}
+.teenyiconsleftSolid {
+  position: absolute;
+  top: 206px;
+  left: 13px;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+}
+.about {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  font-size: var(--font-size-xs);
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+}
+.aboutParent {
+  position: absolute;
+  top: 43px;
+  left: 309px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 6px 7px;
+  gap: 26px;
+}
+.signIn {
+  position: absolute;
+  top: 47px;
+  left: 699px;
+}
+.homePageDesign {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1590px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}

@@ -1,0 +1,59 @@
+.weEnsureThe {
+  position: absolute;
+  top: 207px;
+  left: 81px;
+  display: inline-block;
+  width: 598px;
+}
+.pinpointSecurity {
+  margin: 0;
+}
+.pinpointSecurityEnsureContainer {
+  position: absolute;
+  top: 6px;
+  left: 19px;
+  font-size: var(--font-size-31xl);
+  display: inline-block;
+  width: 593px;
+  height: 201px;
+}
+.frameChild {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-gainsboro);
+  position: relative;
+  border-radius: var(--br-xl);
+  width: 343px;
+  height: 73px;
+}
+.rectangleWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs);
+  background-color: transparent;
+  position: absolute;
+  top: 364px;
+  left: 189px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.getStarted {
+  position: absolute;
+  top: 399px;
+  left: 315px;
+}
+.weEnsureTheBestUsageForVParent {
+  position: absolute;
+  top: 941px;
+  left: 17px;
+  width: 766px;
+  height: 458px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
